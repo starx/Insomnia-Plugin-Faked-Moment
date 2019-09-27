@@ -1,0 +1,42 @@
+{
+  "name": "insomnia-plugin-faked-moment",
+  "version": "0.0.1",
+  "description": "Generate Faker values",
+  "main": "index.js",
+  "insomnia": {
+    "name": "faked-moment",
+    "description": "Generate fake date using Faker.js and pass the result to Moment.js in Insomnia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starx/insomnia-plugin-faked-moment.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "custom",
+    "faker",
+    "moment",
+    "generate",
+    "random",
+    "date",
+    "datetime",
+    "data"
+  ],
+  "author": "starx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starx/insomnia-plugin-faked-moment/issues"
+  },
+  "homepage": "https://github.com/starx/insomnia-plugin-faked-moment#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "insomnia-plugin-faker": "^1.0.2",
+    "moment": "^2.24.0",
+    "proper-case": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
