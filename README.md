@@ -1,8 +1,9 @@
 # Insomnia plugin: Faked moment
 
-This builds on top of [faker](https://insomnia.rest/plugins/insomnia-plugin-faker) plugin. Whenever a date value is generated using faker, it uses that value and passes that to moment.js exposing its API to be used. 
+This builds on top of [faker](https://insomnia.rest/plugins/insomnia-plugin-faker) plugin. Whenever a date value is generated using faker, it passes the result to moment.js exposing its API which can be invoked via JSON format. 
 
-## Common Use cases
+## Supported features (so far)
 
-1. Formatting the date.
+* Format
 
+      {"format":"YYYY-MM-DD"}
